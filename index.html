@@ -17,7 +17,17 @@
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1001810227121181&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->   
+<!-- End Meta Pixel Code -->
+    <script>
+        var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry/i.test(navigator.userAgent);
+
+        if(!isMobile)
+        {
+            document.write("ERROR 404");
+            window.stop();
+            //window.location.href = "https://google.com";
+        }
+</script>
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
